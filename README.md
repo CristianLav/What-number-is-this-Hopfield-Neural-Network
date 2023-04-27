@@ -30,16 +30,18 @@ The dataset used to train the network is included in the data folder. It contain
 
 
 
-Another gift
+## Usage Examples
+
+One way that the system can perform internal calculations is by using either the Hebbian or PseudoInverse method. The demo video shows the PseudoInverse method, but the operation in Hebbian mode is also available, and the visualization is nearly identical. Additionally, if the noise is too high, the system may recognize the negated form of the pattern.
 
 ![GIf Numero 9 Reconociendoce](https://user-images.githubusercontent.com/107207740/234096168-26965786-6d25-41b4-9bfa-427dd9eb7c57.gif)
 
 
-Just one more
+As mentioned earlier, the asynchronous method has a delay built into it, which allows for the cool animations to be seen. On the other hand, the synchronous method shows the actual speed of recognition without delay.
 
 ![Gif 8 Reconocido Real Speed](https://user-images.githubusercontent.com/107207740/234096234-99618923-5a4c-4e4d-a24d-40c81501cd37.gif)
 
 
-okay i lie just to be sure
+The system can recognize the same pattern with a higher degree of noise, which may show the negated form of the 8 pattern.
 
 ![Gif 8 negado Reconocido Real Speed](https://user-images.githubusercontent.com/107207740/234096296-b8d66ab3-cefb-4586-b0be-f1e55839c91a.gif)
